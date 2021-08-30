@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header class="header">
-		<a href="#"><img src="img/logo.svg" alt="Авторские букеты в Петербурге"></a>
+		<a class="logo"><img src="img/logo.svg" alt="Авторские букеты в Петербурге"></a>
 		<nav class="nav">
 			<ul>
 				<li><a href="#">Каталог</a></li>
@@ -25,58 +25,62 @@
 		</nav>
 	</header>
 	<main class="main">
-		<section>
+		<section class="hero">
 			<h1>Авторские букеты <span>в Петербурге</span></h1>
 			<p>Оригинальные свежие букеты с доставкой по всему городу</p>
 			<a href="#">Смотреть каталог</a>
 			<img src="files/flowers-hero-1.jpg" width="386" height="404" alt="Свежий букет из розовых тюльпанов">
 			<img src="files/flowers-hero-2.jpg" width="387" height="420" alt="Свежий букет из розовых и белых роз">
 			<dl>
-				<dt>Быстрая доставка</dt>
-				<dd>Можем собрать букет и передать его в доставку всего за час.</dd>
-				<dt>Всегда свежие цветы</dt>
-				<dd>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</dd>
-				<dt>Отправляем фото цветов</dt>
-				<dd>Перед доставкой сделаем фотографию букета и отправим вам.</dd>
+				<div>
+					<dt>Быстрая доставка</dt>
+					<dd>Можем собрать букет и передать его в доставку всего за час.</dd>
+				</div>
+				<div>
+					<dt>Всегда свежие цветы</dt>
+					<dd>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</dd>
+				</div>
+				<div>
+					<dt>Отправляем фото цветов</dt>
+					<dd>Перед доставкой сделаем фотографию букета и отправим вам.</dd>
+				</div>
 			</dl>
 		</section>
-		<section>
+		<section class="popular">
 			<h2>Популярные букеты</h2>
-			<h3>Букет «Нежность»</h3>
-			<p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
-			<p>30 × 40 см</p>
-			<p>3600 руб.</p>
-			<a href="#">Заказать</a>
-			<img src="files/bouquet-tenderness.png" width="387" height="438" alt="Нежность — свежий букет из белых роз">
-			<a href="#"><img src="img/arrow-left.svg" alt="Назад" width="50"></a>
-			<a href="#"><img src="img/arrow-right.svg" alt="Вперед" width="50"></a>
+			<div class="slider">
+				<div class="slide">
+					<h3>Букет «Нежность»</h3>
+					<p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+					<p>30 × 40 см</p>
+					<p>3600 руб.</p>
+					<a href="#">Заказать</a>
+					<img src="files/bouquet-tenderness.png" width="387" height="438" alt="Нежность — свежий букет из белых роз">
+				</div>
+				<a href="#"><img src="img/arrow-left.svg" alt="Назад" width="50"></a>
+				<a href="#"><img src="img/arrow-right.svg" alt="Вперед" width="50"></a>
+			</div>
 		</section>
-		<section>
+		<section class="catalogue">
 			<a href="#">
-				<div>
-					<h3>Свадебные букеты</h3>
-					<p>Букеты для невест</p>
-				</div>
+				<h3>Свадебные букеты</h3>
+				<p>Букеты для невест</p>
 			</a>
 			<a href="#">
-				<div>
-					<h3>Букеты с пионами</h3>
-					<p>Букеты с сезонными пионами</p>
-				</div>
+				<h3>Букеты с пионами</h3>
+				<p>Букеты с сезонными пионами</p>
 			</a>
 			<a href="#">
-				<div>
-					<h3>Выбрать букет</h3>
-					<p>Букеты в ассортименте</p>
-				</div>
+				<h3>Выбрать букет</h3>
+				<p>Букеты в ассортименте</p>
 			</a>
 		</section>
-		<section>
+		<section clas="promo">
 			<h4>Скидка 10% на первый заказ</h4>
 			<p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
 			<img src="files/bouquet-promo.jpg" width="590" height="391" alt="Свежий букет из роз в Петербурге">
 		</section>
-		<section>
+		<section class="features">
 			<h3>4 шага к идеальному букету</h3>
 			<ul>
 				<li>
@@ -97,7 +101,7 @@
 				</li>
 			</ul>
 		</section>
-		<section>
+		<section class="news">
 			<h3>Следите за нашими новостями</h3>
 			<p>Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
 			<ul>
@@ -109,7 +113,7 @@
 			<img src="files/bouquet-news-2.jpg" width="285" height="220" alt="Свежий букет из розовых роз">
 			<img src="files/bouquet-news-3.jpg" width="387" height="460" alt="Свежий букет из розовых гвоздик">
 		</section>
-		<section>
+		<section class="testimonial">
 			<h3>Отзывы</h3>
 			<blockquote>
 				<p>Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</p>
@@ -124,7 +128,7 @@
 				<cite>Ольга</cite>
 			</blockquote>
 		</section>
-		<section>
+		<section class="contacts">
 			<img src="files/map.png" width="1440" alt="Карта проезда">
 			<dl>
 				<dt>Приходите к нам:</dt>
@@ -139,7 +143,7 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<a href="#"><img src="img/logo_light.svg" alt="Авторские букеты в Петербурге"></a>
+		<a class="logo"><img src="img/logo_light.svg" alt="Авторские букеты в Петербурге"></a>
 		<ul>
 			<li><a href="#">Каталог</a></li>
 			<li><a href="#">Доставка и оплата</a></li>
